@@ -97,4 +97,15 @@ dependencies {
 
     // recycler
     implementation(libs.androidx.recyclerview)
+
+    implementation(libs.koin.android)
+
+    // logging interceptor
+    implementation(libs.logging.interceptor)
+
+    // navigation compose
+    implementation(libs.androidx.navigation.compose)
+
+    implementation("io.coil-kt:coil-compose:2.2.2")
+
 }

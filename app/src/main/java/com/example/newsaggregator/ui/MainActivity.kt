@@ -20,13 +20,14 @@ import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFact
 import kotlinx.coroutines.launch
 import nl.adaptivity.xmlutil.serialization.XML
 import okhttp3.MediaType
+import okhttp3.MediaType.Companion.toMediaType
 import retrofit2.Retrofit
 
 private val retrofit = Retrofit.Builder()
     .baseUrl("https://www.theguardian.com")
     .addConverterFactory(
         XML.asConverterFactory(
-            MediaType.get("application/xml; charset=UTF8")
+            "application/xml; charset=UTF8".toMediaType()
         )
     ).build()
 
