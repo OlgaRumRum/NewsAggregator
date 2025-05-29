@@ -1,4 +1,4 @@
-package com.example.newsaggregator.ui
+package com.example.newsaggregator.ui.news
 
 import android.graphics.Color
 import android.graphics.text.LineBreaker

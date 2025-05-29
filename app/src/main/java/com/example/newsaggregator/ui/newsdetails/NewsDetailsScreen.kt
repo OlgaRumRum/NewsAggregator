@@ -1,4 +1,4 @@
-package com.example.newsaggregator.ui
+package com.example.newsaggregator.ui.newsdetails
 
 import android.webkit.WebView
 import android.webkit.WebViewClient

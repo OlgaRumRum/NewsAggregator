@@ -1,4 +1,4 @@
-package com.example.newsaggregator.ui
+package com.example.newsaggregator.ui.news
 
 import com.example.newsaggregator.domain.model.Item
 

@@ -1,4 +1,4 @@
-package com.example.newsaggregator.ui
+package com.example.newsaggregator.ui.news
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf

@@ -1,4 +1,4 @@
-package com.example.newsaggregator.ui
+package com.example.newsaggregator.ui.news
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
